@@ -1,0 +1,296 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|标准安装软件包 1|三八尊染整软件之业务部]
+Icon1=生产作业计划单.exe
+Title1=三八尊染整软件之业务部
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\新建文件夹
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+Xbase=Yes
+Excel=Yes
+Text=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Microsoft Visual Studio\VB98\Tsql\VBSDIADD.DLL=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSRDO20.DLL=
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSSTDFMT.DLL=
+C:\WINNT\system32\mscomct2.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\mswinsck.ocx=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\MSBIND.DLL=
+
+[Package|标准安装软件包 1|Files Added]
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Tsql\VBSDIADD.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\VB6CHS.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTCHS.DLL=Yes
+C:\WINDOWS\system32\DBRPRCHS.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDCHS.DLL=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\DBLSTCHS.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGCHS.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2CHS.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHS.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHS.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKCHS.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHS.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Documents and Settings\Administrator\桌面\服装erp.exe=Yes
+C:\WINDOWS\system32\dao350.dll=Yes
+C:\WINDOWS\system32\msexcl35.dll=Yes
+C:\WINDOWS\system32\msltus35.dll=Yes
+C:\WINDOWS\system32\mspdox35.dll=Yes
+C:\WINDOWS\system32\mstext35.dll=Yes
+C:\WINDOWS\system32\msxbse35.dll=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+H:\yw\生产作业计划单.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Tsql\VBSDIADD.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLSTCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2CHS.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHS.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20CHS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\业务=$(AppPath)
+C:\WINNTNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNTNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNTNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNTNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNTNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNTNT\system32\VB6CHS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Tsql\VBSDIADD.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNTNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNTNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNTNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNTNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNTNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNTNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNTNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNTNT\system32\STDFTCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\DBRPRCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNTNT\system32\FLXGDCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNTNT\system32\DBLSTCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNTNT\system32\CMDLGCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNTNT\system32\MSCC2CHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNTNT\system32\TABCTCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNTNT\system32\MSCMCCHS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINNTNT\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINNTNT\system32\RDO20CHS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNTNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\lbjsf\雅冠制帽业务F.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6CHS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\DBRPRCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\FLXGDCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLSTCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2CHS.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCCHS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINNT\system32\RDO20CHS.DLL=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\lbjsf\雅冠制帽业务2.exe=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\WINSKCHS.DLL=$(WinSysPath)
+F:\LBJSF\荆州吉安达\服装业务.exe=$(AppPath)
+C:\WINDOWS\system32\STDFTCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKCHS.DLL=$(WinSysPath)
+C:\Documents and Settings\Administrator\桌面\服装erp.exe=$(AppPath)
+C:\WINDOWS\system32\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msexcl35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msltus35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mspdox35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mstext35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msxbse35.dll=$(WinSysPathSysFile)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+H:\yw\生产作业计划单.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+I:\业务=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+G:\lbjsf\雅冠制帽业务F.exe=Yes
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+F:\lbjsf\雅冠制帽业务2.exe=No
+F:\LBJSF\荆州吉安达\服装业务.exe=Yes
+C:\Documents and Settings\Administrator\桌面\服装erp.exe=Yes
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=富源针织软件之业务部
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=富源针织软件之业务部
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|富源针织软件之业务部]
+Icon1=生产作业计划单.exe
+Title1=富源针织软件之业务部
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=c:\新建文件夹
+ProjectFolder=E:\客户程式\企业网络软件\服装内销ERP\ERP
+ServerSideCab=
+File1=c:\新建文件夹\setup.exe
+File2=c:\新建文件夹\Setup.Lst
+File3=c:\新建文件夹\服装erp.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
